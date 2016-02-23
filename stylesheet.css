@@ -15,9 +15,9 @@ p{
 
 /* Layout */
 
-.pearl{
-  width: 20px;
-  float: left;
+.logo{
+  display: flex;
+  align-items: center;
 }
 
 .banner{
@@ -65,8 +65,7 @@ ul .menu li{
 }
 
 .content p{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 10 35px;
   font-weight: 100;
   font-size: 20px;
   line-height: 30px;
@@ -128,11 +127,8 @@ ul .menu li{
 @media screen and (min-width: 720px) {
 
   .logo{
-    position: absolute;
-    z-index: 1;
-    top: 80px;
-    max-width: 720px;
-  }
+  display: flex;
+}
 
   .banner{
     width: 100%;
