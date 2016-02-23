@@ -6,6 +6,7 @@ body{
   font-size: 10px;
   text-align: center;
   overflow-x: hidden;
+  margin: 0px;
 }
 
 p{
@@ -14,16 +15,25 @@ p{
 
 /* Layout */
 
+.pearl{
+  width: 20px;
+  float: left;
+}
+
 .banner{
   width: 100%;
-  height: 75vh;
+  height: 30vh;
   background-image: url('links/welcome.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0px;
 }
 
-.logo{
+ul .menu li{
+  display: inline-block;
+  margin: 0 auto;
   width: 100%;
+  list-style: none;
 }
 
 .heading-middle{
@@ -60,144 +70,6 @@ p{
   font-weight: 100;
   font-size: 20px;
   line-height: 30px;
-}
-
-.main-menu{
-  display: flex
-}
-
-.combo{
-  background-color: blue;
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  flex: 50%;
-  flex-wrap: wrap;
-}
-
-.first {
-  display: inline-block;
-  width: 200px;
-  height: 300px;
-  float: left;
-}
-
-.first p{
-  text-align: left;
-  font-size: 13px;
-  color: grey;
-  line-height: 15px;
-}
-
-.main li{
-  list-style: none;
-  line-height: 20px;
-}
-
-.main2 {
-  display: inline-block;
-  text-align: left;
-  float: right;
-  font-weight: lighter;
-  width: 400px;
-}
-
-.main2 li {
-  list-style: none;
-  line-height: 20px;
-}
-
-.base {
-  display: inline-block;
-  width: 200px;
-  float: left;
-}
-
-.base h3 {
-  text-align: left;
-  background-color: lightgrey;
-  padding: 10px;
-  margin-top: 0;
-  padding-bottom: 10px;
-}
-
-.base p{
-  text-align: left;
-  font-size: 13px;
-  color: grey;
-  line-height: 15px;
-}
-.soup{
-  float: left;
-  display: inline-block;
-  margin: 0 auto;
-  font-weight: lighter;
-  width: 400px;
-  padding-left: 20px;
-  text-align: left;
-  margin-bottom: 50px;
-}
-
-.soup li{
-  list-style: none;
-  line-height: 20px;
-}
-.second {
-  display: inline-block;
-  width: 200px;
-  float: left;
-  font-weight: lighter;
-}
-
-.second h3 {
-  text-align: left;
-  background-color: lightgrey;
-  padding: 10px;
-  margin-top: 0;
-  padding-bottom: 10px;
-  font-weight: lighter;  
-}
-
-.second p{
-  text-align: left;
-  font-size: 13px;
-  color: grey;
-  line-height: 15px;
-  font-weight: lighter;  
-}
-
-.sides{
-  display: inline-block;
-  margin: 0 auto;
-  margin-left: 20px;
-  /*list-style: none;*/
-  width: 400px;
-  text-align: left;
-  margin-bottom: 50px;
-  font-weight: lighter;  
-}
-.sides li{
-  list-style: none;
-  line-height: 20px;
-}
-
-.sides2 {
-  text-align: left;
-  float: right;
-  width: 400px;
-  font-weight: lighter;
-}
-
-.sides2 li {
-  list-style: none;
-  line-height: 20px;
-}
-.addition{
-  display: inline-block;
-  margin: 0 auto;
-  list-style: none;
-  width: 824px;
-  margin-bottom: 60px;
 }
 
 .social{
@@ -262,13 +134,13 @@ p{
     max-width: 720px;
   }
 
-.banner{
-  width: 100%;
-  height: 100vh;
-  background-image: url('links/welcome.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+  .banner{
+    width: 100%;
+    height: 50vh;
+    background-image: url('links/welcome.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   .heading-middle{
     font-size: 3rem;
@@ -281,8 +153,12 @@ p{
 
 @media screen and (min-width: 1200px) {
 
-  body{
-
+  .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('links/welcome.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
 
