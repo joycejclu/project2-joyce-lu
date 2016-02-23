@@ -1,8 +1,6 @@
 /* Elements */
 
 body{
-  /*background-image: url("links/handmadepaper.png");*/
-  /*width: 400px; */
   max-width: 100%;
   font-family: 'Raleway', sans-serif;
   font-size: 10px;
@@ -16,24 +14,16 @@ p{
 
 /* Layout */
 
-/*.welcome-image{
-  position: relative;
-  width: 100px;
-}*/
-
 .banner{
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   background-image: url('links/welcome.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .logo{
-  position: absolute;
-  z-index: 1;
-  top: 80px;
-  width: 400px;
+  width: 100%;
 }
 
 .heading-middle{
@@ -265,17 +255,20 @@ p{
 
 @media screen and (min-width: 720px) {
 
-  .welcome-image{
-    position: relative;
-    max-width: 720px;
-  }
-
   .logo{
     position: absolute;
     z-index: 1;
     top: 80px;
     max-width: 720px;
   }
+
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: url('links/welcome.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
   .heading-middle{
     font-size: 3rem;
@@ -286,10 +279,10 @@ p{
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
 
   body{
-    background-color: yellow;
+
   }
 
 
