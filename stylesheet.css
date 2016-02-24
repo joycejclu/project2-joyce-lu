@@ -29,6 +29,15 @@ p{
   margin: 0px;
 }
 
+.mid{
+  width: 100%;
+  height: 30vh;
+  background-image: url('links/3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
 .heading{
   font-size: 15px;
   font-weight: bolder;
@@ -59,7 +68,6 @@ p{
 
 .social{
   border-top: 1px dotted grey;
-  border-bottom: 1px dotted grey;
 }
 
 .social ul{
@@ -90,6 +98,8 @@ p{
   margin-top: 0 auto;
   padding: 30px;
   font-size: 15px;
+  background-color: #cb2828;
+  color: white;
 }
 
 .hours h3{
@@ -100,23 +110,13 @@ p{
 .hours p{
   margin-top: 10px;
   padding-right: 20px;
-  width: 1000px;
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 1px;
-  line-height: 20px;
+  line-height: 15px;
   margin-bottom: 30px;
 }
-
-.location{
-  float: right;
-  margin: 0 auto;
-  /*list-style: none;*/
-  width: 800px;
-  text-align: left;
-}
-
 
 /* Breakpoints below*/
 
@@ -124,6 +124,7 @@ p{
 
   .logo{
     display: flex;
+    justify-content: center;
   }
 
   .banner{
@@ -144,6 +145,11 @@ p{
   }
 
   @media screen and (min-width: 1200px) {
+
+    .logo{
+      display: flex;
+      justify-content: center;
+    }
 
     .banner{
       width: 100%;
