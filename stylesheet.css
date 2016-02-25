@@ -34,10 +34,19 @@ h3{
   margin: 0px;
 }
 
-.mid{
+.menu-page-banner{
   width: 100%;
   height: 30vh;
   background-image: url('links/3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+
+.contact-page-banner{
+  width: 100%;
+  height: 30vh;
+  background-image: url('links/26.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0px;
@@ -127,6 +136,15 @@ h3{
   width: 30px;
 }
 
+.visit{
+  display: flex;
+  justify-content: ;
+}
+
+iframe{
+  margin-top: 0px 30px;
+}
+
 .about{
   padding: 30px;
   font-size: 15px;
@@ -162,7 +180,7 @@ h3{
     background-repeat: no-repeat;
   }
 
-  .mid{
+  .menu-page-banner{
     width: 100%;
     height: 50vh;
     background-image: url('links/3.jpg');
@@ -171,6 +189,16 @@ h3{
     margin: 0px;
   }
 
+  .contact-page-banner{
+    width: 100%;
+    height: 50vh;
+    background-image: url('links/26.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    margin-bottom: 70px;
+
+  }
   .heading{
     font-size: 30px;
     font-weight: bolder;
@@ -180,14 +208,10 @@ h3{
     margin-bottom: 25px;
   }
 
-  .connect img{
-    width: 50px;
-  }
 
-  .social ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  iframe{
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 
 }
@@ -207,7 +231,7 @@ h3{
     background-repeat: no-repeat;
   }
 
-  .mid{
+  .menu-page-banner{
     width: 100%;
     height: 100vh;
     background-image: url('links/3.jpg');
@@ -216,6 +240,15 @@ h3{
     margin: 0px;
   }
 
+  .contact-page-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url('links/26.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    margin-bottom: 100px;
+  }
   .heading{
     font-size: 40px;
     font-weight: bolder;
