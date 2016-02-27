@@ -15,7 +15,7 @@ p{
 
 h3{
   text-align: center;
-  font-size: 30px;
+  font-size: 15px;
   text-transform: uppercase;
 }
 /* Layout */
@@ -53,7 +53,7 @@ h3{
 }
 
 .heading{
-  font-size: 15px;
+  font-size: 30px;
   font-weight: bolder;
   text-align: center;
   text-transform: uppercase;
@@ -92,9 +92,7 @@ h3{
   justify-content: space-around;
 }
 
-.flexbox-container > .left .right{
-  width: 50%;
-}
+
 
 .menu-lists{
   list-style: none;
@@ -197,8 +195,8 @@ iframe{
     background-repeat: no-repeat;
     margin: 0px;
     margin-bottom: 70px;
-
   }
+
   .heading{
     font-size: 30px;
     font-weight: bolder;
@@ -207,7 +205,6 @@ iframe{
     margin: 35px 18px;
     margin-bottom: 25px;
   }
-
 
   iframe{
     margin-top: 50px;
@@ -249,6 +246,7 @@ iframe{
     margin: 0px;
     margin-bottom: 100px;
   }
+
   .heading{
     font-size: 40px;
     font-weight: bolder;
