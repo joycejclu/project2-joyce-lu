@@ -22,10 +22,8 @@ h3{
 }
 /* Layout */
 
-.logo{
-  display: flex;
-  width: 100%;
-  align-items: center;
+.logo img{
+  width:100%;
 }
 
 .banner{
@@ -89,14 +87,18 @@ h3{
   margin: 20px 25px;
 }
 
+.flexbox-container{
+  display: flex;
+}
+
 .items{
   display: flex;
-  width: 50%;
+  width: 70%;
 }
 
 .price{
   display: flex;
-  width: 50%;
+  width: 30%;
 }
 
 .menu-lists{
@@ -104,7 +106,6 @@ h3{
   list-style: none;
   font-weight: lighter;
   line-height: 22px;
-  text-align: left;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
