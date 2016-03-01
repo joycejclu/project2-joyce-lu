@@ -3,11 +3,8 @@
 body{
   max-width: 100%;
   font-family: 'Raleway', sans-serif;
-<<<<<<< HEAD
-=======
   font-size: 16px;
   text-align: center;
->>>>>>> master
   overflow-x: hidden;
   margin: 0px;
 }
@@ -20,7 +17,7 @@ h3{
   margin-top: 60px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 15px;
+  font-size: 1.25rem;
   text-transform: uppercase;
 }
 /* Layout */
@@ -92,49 +89,26 @@ h3{
   margin: 20px 25px;
 }
 
-/*.flexbox-container{
+.items{
   display: flex;
-  justify-content: space-around;
-}
-
-<<<<<<< HEAD
-.flexbox-container > .left .right{
   width: 50%;
-}*/
-=======
-.left{
-  display: flex;
-  width: 70%;
 }
 
 .price{
   display: flex;
-  width: 30%;
+  width: 50%;
 }
->>>>>>> master
 
 .menu-lists{
   text-align: left;
   list-style: none;
   font-weight: lighter;
-<<<<<<< HEAD
-  font-size: 14px;
   line-height: 22px;
-=======
-  font-size: 12px;
-  line-height: 18px;
   text-align: left;
->>>>>>> master
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-
-/* Is there way to use this in css?
-.space-between{
-  display:inline-block; 
-  width: 200px;
-}*/
 
 .social{
   border-top: 1px dotted grey;
@@ -159,6 +133,7 @@ h3{
 .connect li:first-child{
   padding-left: 0px;
 }
+
 /* size of social media icons*/
 .connect img{
   width: 30px;
