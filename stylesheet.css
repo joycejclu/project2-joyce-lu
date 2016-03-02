@@ -18,10 +18,15 @@ h3{
 }
 /* Layout */
 
+<<<<<<< HEAD
 .logo{
   display: flex;
   max-width: 100%;
   align-items: center;
+=======
+.logo img{
+  width:100%;
+>>>>>>> master
 }
 
 .banner{
@@ -36,16 +41,7 @@ h3{
 .menu-page-banner{
   width: 100%;
   height: 30vh;
-  background-image: url('links/3.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 0px;
-}
-
-.contact-page-banner{
-  width: 100%;
-  height: 30vh;
-  background-image: url('links/26.jpg');
+  background-image: url('links/menupage.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0px;
@@ -83,6 +79,10 @@ h3{
 
 .category p{
   margin: 20px 25px;
+}
+
+.flexbox-container{
+  display: flex;
 }
 
 .items{
@@ -181,20 +181,10 @@ iframe{
   .menu-page-banner{
     width: 100%;
     height: 50vh;
-    background-image: url('links/3.jpg');
+    background-image: url('links/menupage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px;
-  }
-
-  .contact-page-banner{
-    width: 100%;
-    height: 50vh;
-    background-image: url('links/26.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0px;
-    margin-bottom: 70px;
   }
 
   .heading{
@@ -231,20 +221,10 @@ iframe{
   .menu-page-banner{
     width: 100%;
     height: 100vh;
-    background-image: url('links/3.jpg');
+    background-image: url('links/menupage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px;
-  }
-
-  .contact-page-banner{
-    width: 100%;
-    height: 100vh;
-    background-image: url('links/26.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0px;
-    margin-bottom: 100px;
   }
 
   .heading{
@@ -256,6 +236,20 @@ iframe{
     margin-bottom: 40px;
   }
 
+  .content p{
+    text-align: left;
+    margin: 10px 40px 0px 40px
+  }
+
+   .main{
+    float:left;
+    width: 50%;
+  }
+
+  .soup{
+    float:right;
+    width: 50%;
+  }
   .social ul{
     display: flex;
     flex-direction: row;
